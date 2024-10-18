@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|g:\\projetos\\csharp\\crudcsharpsqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|solutionrelative:crud-csharp-sqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|g:\\projetos\\csharp\\crudcsharpsqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver\\acessobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|solutionrelative:crud-csharp-sqlserver\\acessobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|g:\\projetos\\csharp\\crudcsharpsqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|solutionrelative:crud-csharp-sqlserver\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|g:\\projetos\\csharp\\crudcsharpsqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver\\code\\classes\\classeproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|solutionrelative:crud-csharp-sqlserver\\code\\classes\\classeproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|g:\\projetos\\csharp\\crudcsharpsqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver\\acessobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|solutionrelative:crud-csharp-sqlserver\\acessobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|g:\\projetos\\csharp\\crudcsharpsqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|solutionrelative:crud-csharp-sqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFF7C470-A6BE-4045-8CFC-0FD10ED0DD5A}|Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer.csproj|g:\\projetos\\csharp\\crudcsharpsqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver\\crud-csharp-sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -34,28 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Produto.cs",
               "DocumentMoniker": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer\\Produto.cs",
               "RelativeDocumentMoniker": "Crud-CSharp-SqlServer\\Produto.cs",
               "ToolTip": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer\\Produto.cs",
               "RelativeToolTip": "Crud-CSharp-SqlServer\\Produto.cs",
-              "ViewState": "AQIAAEgBAAAAAAAAAAAYwGcBAAAAAAAA",
+              "ViewState": "AQIAAOgAAAAAAAAAAAAmwFQBAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T14:02:49.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer\\Program.cs",
               "RelativeDocumentMoniker": "Crud-CSharp-SqlServer\\Program.cs",
@@ -63,18 +59,17 @@
               "RelativeToolTip": "Crud-CSharp-SqlServer\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:14:33.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T12:14:33.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ClasseProduto.cs",
               "DocumentMoniker": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer\\Code\\Classes\\ClasseProduto.cs",
               "RelativeDocumentMoniker": "Crud-CSharp-SqlServer\\Code\\Classes\\ClasseProduto.cs",
               "ToolTip": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer\\Code\\Classes\\ClasseProduto.cs",
               "RelativeToolTip": "Crud-CSharp-SqlServer\\Code\\Classes\\ClasseProduto.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAkwFgAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T19:36:28.796Z",
               "EditorCaption": ""
@@ -93,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AcessoBanco.cs",
               "DocumentMoniker": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer\\AcessoBanco.cs",
               "RelativeDocumentMoniker": "Crud-CSharp-SqlServer\\AcessoBanco.cs",
@@ -101,12 +96,11 @@
               "RelativeToolTip": "Crud-CSharp-SqlServer\\AcessoBanco.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T19:34:52.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T19:34:52.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Produto.cs [Design]",
               "DocumentMoniker": "G:\\Projetos\\cSharp\\CrudCSharpSqlServer\\Crud-CSharp-SqlServer\\Crud-CSharp-SqlServer\\Produto.cs",
               "RelativeDocumentMoniker": "Crud-CSharp-SqlServer\\Produto.cs",

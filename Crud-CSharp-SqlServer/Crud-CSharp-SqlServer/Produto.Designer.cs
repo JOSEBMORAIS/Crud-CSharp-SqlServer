@@ -56,6 +56,7 @@
             btnAlterar = new Button();
             btnNovo = new Button();
             dgvProduto = new DataGridView();
+            btnPesquisarTodos = new Button();
             pnlProduto.SuspendLayout();
             pnlCampos.SuspendLayout();
             pnlKit.SuspendLayout();
@@ -241,6 +242,7 @@
             // 
             // grbPesquisa
             // 
+            grbPesquisa.Controls.Add(btnPesquisarTodos);
             grbPesquisa.Controls.Add(txtBusca);
             grbPesquisa.Dock = DockStyle.Bottom;
             grbPesquisa.Location = new Point(0, 253);
@@ -254,7 +256,7 @@
             // 
             txtBusca.Location = new Point(41, 22);
             txtBusca.Name = "txtBusca";
-            txtBusca.Size = new Size(542, 23);
+            txtBusca.Size = new Size(478, 23);
             txtBusca.TabIndex = 0;
             txtBusca.TextChanged += txtBusca_TextChanged;
             // 
@@ -347,6 +349,16 @@
             dgvProduto.TabIndex = 0;
             dgvProduto.MouseDoubleClick += dgvProduto_MouseDoubleClick;
             // 
+            // btnPesquisarTodos
+            // 
+            btnPesquisarTodos.Location = new Point(525, 22);
+            btnPesquisarTodos.Name = "btnPesquisarTodos";
+            btnPesquisarTodos.Size = new Size(75, 23);
+            btnPesquisarTodos.TabIndex = 1;
+            btnPesquisarTodos.Text = "Todos";
+            btnPesquisarTodos.UseVisualStyleBackColor = true;
+            btnPesquisarTodos.Click += btnPesquisarTodos_Click;
+            // 
             // Produto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -400,5 +412,6 @@
         private MaskedTextBox txtPreco;
         private Button btnSair;
         private TextBox txtBusca;
+        private Button btnPesquisarTodos;
     }
 }

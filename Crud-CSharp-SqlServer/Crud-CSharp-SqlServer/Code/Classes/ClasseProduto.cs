@@ -9,7 +9,7 @@ namespace Crud_CSharp_SqlServer.Code.Classes
 {
     class ClasseProduto
     {
-
+        // esta '?' aponta que o campo pode ser null
         private string nome;
         private string descricao;
         private double preco;
@@ -21,6 +21,15 @@ namespace Crud_CSharp_SqlServer.Code.Classes
 
         public string mensagem;
 
+        // Construtor da classe
+        public ClasseProduto()
+        {
+            nome = string.Empty; // Inicializando para evitar null
+            descricao = string.Empty; // Inicializando para evitar null
+            classFiscal = string.Empty; // Inicializando para evitar null
+            mensagem = string.Empty; // Inicializando para evitar null
+        }
+
         public string Nome { get => nome; set => nome = value; }
         public string Descricao { get => descricao; set => descricao = value; }
         public double Preco { get => preco; set => preco = value; }
@@ -29,8 +38,8 @@ namespace Crud_CSharp_SqlServer.Code.Classes
         public double EstMinimo { get => estMinimo; set => estMinimo = value; }
         public string ClassFiscal { get => classFiscal; set => classFiscal = value; }
         public DateTime DataMovto { get => dataMovto; set => dataMovto = value; }
-
-
+      
+      
         public void Inclusao()
         {
             try

@@ -1,4 +1,5 @@
 using Crud_CSharp_SqlServer.Code.Classes;
+using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Crud_CSharp_SqlServer
@@ -151,6 +152,7 @@ namespace Crud_CSharp_SqlServer
                     try
                     {
                         dgvProduto.DataSource = produto.DtaProduto(txtBusca.Text);
+                        AjustarGridView();
                     }
                     catch (Exception)
                     {
@@ -306,6 +308,7 @@ namespace Crud_CSharp_SqlServer
             dgvProduto.AllowUserToAddRows = false;
             //seleciona todas colunas do grid
             dgvProduto.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                       
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
@@ -354,6 +357,43 @@ namespace Crud_CSharp_SqlServer
 
         private void Produto_Load(object sender, EventArgs e)
         {
+        }
+
+        private void btnPesquisarTodos_Click(object sender, EventArgs e)
+        {
+            txtBusca.Text = "%";
+        }
+
+        private void AjustarGridView()
+        {
+            // Alinhamento da coluna para a direita
+            dgvProduto.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dgvProduto.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dgvProduto.Columns[7].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+
+            // Alinhamento da coluna para ao centro
+            dgvProduto.Columns[5].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+
+            // Definir o tamanho da coluna (coluna de índice) em pixels
+            dgvProduto.Columns[0].Width = 40;
+            dgvProduto.Columns[2].Width = 210;
+            dgvProduto.Columns[5].Width = 40;
+            dgvProduto.Columns[3].Width = 80;
+            dgvProduto.Columns[6].Width = 75;
+            dgvProduto.Columns[7].Width = 95;
+
+            //Ocultar a coluna de índice
+            dgvProduto.Columns[8].Visible = false;
+
+            //Alterar o título da coluna de indice
+            dgvProduto.Columns[2].HeaderText = "Descrição";
+            dgvProduto.Columns[3].HeaderText = "Preço";
+            dgvProduto.Columns[4].HeaderText = "Dt. Inclusão";
+            dgvProduto.Columns[6].HeaderText = "Class.Fiscal";
+            dgvProduto.Columns[7].HeaderText = "Est. Mínimo";
+
+
         }
     }
 }
